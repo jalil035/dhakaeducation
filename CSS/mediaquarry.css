@@ -54,6 +54,10 @@ html{
         margin-left: 25rem;
     }
     html{
-        font-size: 40.5%;
+        font-size: 28.5%;
+    }
+    .card-body{
+        width: 12rem;
+        height: 15rem;
     }
 }
