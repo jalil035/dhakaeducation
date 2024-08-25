@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.background_custom{
+    background-color: #5E841F;
+}
+/* marquee section start */
+.notice_tow{
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: 700;
+}
+.news-1{
+    width: 10%;
+}
+.all-1{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+.marquee{
+    width: 80%;
+}
+/* marquee section end */
+/* Frist Navber Start Here */
+.logo_1{
+    height: 6rem;
+}
+.text-hed{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.text-hed h1{
+    color: white;
+    font-size: 3rem;
+}
+.main_part{
+    background-color: rgb(238, 234, 234);
+}
+/* Secend navbar design start */
+    .custom_navbar{
+        font-size: 1.8rem;
+        gap: 1.5rem;
+    }
+/* Secend navbar design end */
+
+/* Left Card Start */
+.left_card{
+    height: 31.5rem;
+    border: .1rem solid black;
+    background: white;
+    border-radius: .6rem;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15rem;
+    height: 18rem;
+    margin: 3rem auto;
+}
+.card-body img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: .3rem solid gray;
+}
+.left_card p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+/* Left Card end */
+/* Right marquee card start */
+.right_card{
+    height: 31.5rem;
+    border: .1rem solid rgb(149, 149, 149);
+    padding: 1.1rem;
+}
+.header_card{
+    background: #4b6d15;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.right_card .right_marquee{
+    height: 85%;
+}
+.right_marquee ul{
+    font-size: 1.5rem;
+}
+/* Right marquee card end */
+
+/* Small card Design start */
+.info-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    background: white;
+    margin: .5rem 0;
+    height: 4rem;
+}
+.info-box-img{
+    width: 3.5rem; 
+}
+.info-box-img img{
+    width: 100%;
+    padding: .5rem .4rem;
+}
+.info-box .bg_color{
+    background: green;
+    height: 100%;
+}
+.info_box_details a{
+    font-size: 1.5rem;
+    color: darkcyan;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0 .7rem;
+}
+
+.info-box1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    background: white;
+    margin: .4rem 0;
+    width: 50%;
+    height: 3.5rem;
+}
+.info-box1 .bg_color{
+    background: green;
+    height: 100%;
+}
+.info-box-img1{
+    width: 3.5rem; 
+}
+.info-box-img1 img{
+    width: 100%;
+    height: 100%;
+    padding: .3rem;
+}
+
+.info_box_details1 a{
+    font-size: 1.2rem;
+    color: darkcyan;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0 .5rem;
+}
+.info_box_parent{
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+}
+/* Small card Design end */
+.btn_custom{
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.20);
+}
+.left_bg{
+    background-color: rgb(238, 234, 234);
+}
+.btn_icone{
+    width: 15%;
+    background-color: #4b6d15;
+}
+.btn_icone,
+.btn_text{
+
+    border: .2rem solid red;
+}
+/* left Small Card End */
+
+/* exam ontrol room start */
+.exam_control{
+    background: white;
+    border: 1px solid gray;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+.exam_control .exam_control_head{
+    background: #609513;
+    width: 100%;
+    border-radius: .5rem;
+    padding: .2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.exam_control_head h6{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    padding-top: .4rem;
+}
+.exam_control_details{
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+}
+/* exam ontrol room end */
+
+/* Social Media Icon start */
+.social_icon{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.social_image{
+    width: 3.5rem;
+}
+.social_image img{
+    width: 100%;
+    padding: .2rem;
+}
+.social_icon a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 1.2rem 0;
+}
+/* Social Media Icon end */
+
+/* midlecard design start */
+.middle_card1{
+    width: 27.5rem;
+    height: 27rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .6rem;
+}
+.middle_card1 .middle_card2{
+    text-align: center;
+    padding: 1.5rem .5rem;
+    width: 90%;
+    height: 90%;
+    border: none;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.middle_card2 img{
+    width: 100%;
+    padding: .4rem 4rem 4rem 4rem;
+}
+.middle_card2 span{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.middle_card2:hover{
+    background-color: whitesmoke;
+}
+/* midlecard design end */
+
+/* footer design start */
+.footer_body{
+    color: white;
+}
+.footer_body h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.footer_body span{
+    font-size: 1.8rem;
+}
+.footer_body a{
+    font-size: 1.7rem;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* footer design end */

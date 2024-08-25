@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+@media screen and (max-width:1399px){
+
+}
+
+@media screen and (max-width:1199px){
+    html{
+        font-size: 55.5%;
+    }
+}
+
+@media screen and (max-width:991px){
+    .logo_1{
+        margin-left: 28rem;
+    }
+    .custom_navbar{
+        font-size: 1.8rem;
+        gap: 1.5rem;
+    }
+    .right_card{
+        height: 25rem;
+    }
+    .left_card{
+        height: 25rem;
+    }
+    html{
+        font-size: 52.5%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .logo_1{
+        margin-left: 28rem;
+    }
+    .custom_navbar{
+        font-size: 1.6rem;
+        gap: 1.5rem;
+    }
+    html{
+        font-size: 45.5%;
+    }
+}
+
+@media screen and (max-width:576px){
+    .logo_1{
+        margin-left: 25rem;
+    }
+    html{
+        font-size: 40.5%;
+    }
+}
